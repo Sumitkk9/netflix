@@ -1,0 +1,508 @@
+*{
+    margin: 0%;
+    
+}
+
+.container{
+    position: relative;
+    text-align: center;
+
+}
+
+.top-left{
+    position: absolute;
+    top: 15px;
+    left: 40px;  
+    z-index: 1;
+}
+
+.top-left > img{
+    width: 18vh;
+}
+.top-right{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+.rightH{
+    display: flex;
+    background-color: black;
+    border: 2px solid #777;
+    border-radius: 5px;
+    height: 25px;
+    padding: 4px;
+    margin-bottom: 0%;
+    overflow: hidden;
+
+}
+.top-right > button{
+    width: 80px;
+    height: 36px;
+    margin-left: 8px;
+    align-self: center;
+    background: orangered;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;    
+    font-size: 15px;
+    color: white;  
+}
+.top-right > button:hover{
+    background: red;
+    cursor: pointer;
+
+}
+
+#slt{
+    background: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+}
+.black{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.627) 0%, rgba(0,0,0,8) 1000%);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.center > p{
+    font-size: 17px;
+}
+.tbl{
+    justify-content: center;
+}
+#email{
+    position: relative;
+    background: black;
+    border: 1px solid #777;
+    border-radius: 2px;
+    width: 300px;
+    height: 30px;
+}
+#submit{
+    position: relative;
+    width: 150px;
+    height: 36px;
+    align-self: center;
+    background: orangered;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;    
+    font-size: 15px;
+    color: white;
+
+}
+#email:focus{
+    border: 3px solid white;
+}
+#submit:hover{
+    cursor: pointer;
+    background: red;
+}
+
+@media (min-width:768px) {
+    #email{
+        position: relative;
+        background: black;
+        border: 1px solid #777;
+        border-radius: 2px;
+        margin-left: 150px;
+        width: 350px;
+        height: 40px;
+    }
+    #submit{
+        position: relative;
+        width: 200px;
+        height: 46px;
+        align-self: center;
+        background: orangered;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;    
+        font-size: 15px;
+        color: white;
+    
+    }
+
+}
+
+.enjoy{
+    background: black;
+    padding: 30px;
+
+}
+
+
+.tvContain{
+    position: relative;
+    background: black;
+    height: 300px;
+}
+
+.tvContain > img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+#giftv{
+    z-index: 1;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 80%;
+    
+    height: auto;
+}
+#imgtv{
+    width: 100%;
+    height: auto;
+}
+.txt > h2{
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.txt > p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+@media (min-width:768px) {
+    .enjoy{
+        display: flex;
+        background: black;
+        padding: 30px;
+    
+    }
+    .tvContain{
+        position: relative;
+        background: black;
+        width: 500px;
+        height: 250px;
+    }
+    
+    .tvContain > img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    
+    }
+    
+    #giftv{
+        z-index: 1;
+        margin-top: 60px;
+        margin-left: 40px;
+        width: 80%;
+        
+        height: auto;
+    }
+    #imgtv{
+        width: 100%;
+        height: auto;
+    }
+    .txt > h2{
+        margin-top: 50px;
+        text-align: left;
+        z-index: 1;
+        color: white;
+        font-size: 30px;
+    }
+    .txt > p{
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        
+    }
+
+
+}
+
+
+@media (min-width:1024px) {
+    .enjoy{
+        display: flex;
+        background: black;
+        padding: 30px;
+    
+    }
+    .tvContain{
+        position: relative;
+        background: black;
+        width: 400px;
+        height: 300px;
+        margin-left: 200px;
+    }
+    
+    .tvContain > img{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    
+    }
+    
+    #giftv{
+        z-index: 1;
+        margin-top: 60px;
+        margin-left: 40px;
+        width: 80%;
+        height: auto;
+    }
+    #imgtv{
+        z-index: 1;
+        width: 100%;
+        height: auto;
+    }
+    .txt{
+        margin-bottom: 5%;
+    }
+    .txt > h2{
+        text-align: left;
+        z-index: 1;
+        color: white;
+        font-size: 40px;
+    }
+    .txt > p{
+        text-align: left;
+        color: white;
+        font-size: 20px;
+        
+    }
+}
+
+.download{
+    background:black;
+   padding: 5px;
+}
+
+
+
+.downEffect{
+    width: 350px;
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #777;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.downImg > img{
+    width: 30px;
+    padding: 10px;
+}
+
+.dowAni > img{
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+
+}
+
+.downtxt > h2{
+    margin-top: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 15px;
+
+}
+.downtxt > p{
+    color: blue;
+
+    padding-left:10px;
+    font-size: 10px;
+
+}
+
+#giftvv{
+    z-index: 1;
+    margin-top: 60px;
+    margin-left: 40px;
+    width: 80%;
+    
+    height: auto;
+
+}
+
+@media (min-width:768px) {
+    .download{
+        background:black;
+        display: flex;
+       flex-direction: row-reverse;
+    }
+    .tvContainn{
+        margin-left: 0px;
+    }
+
+   #giftvv{
+    width: 500px;
+     margin-right: 100px;
+   }
+
+   .downEffect{
+    margin-left: 100px;
+   }
+   .txt{
+    margin-top: 150px;
+    margin-right: 100px;
+   }
+
+}
+
+#giftvs{
+    position: absolute;
+    width: 65%;
+   top: 30px;
+    left: 70px;
+
+}
+#imgtvs{
+    width: 100%;
+
+}
+#space{
+    height: 2px;
+    background: #777;
+
+}
+#fqs{
+    background: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h1{
+  color: #fff;
+  text-align: center;
+}
+
+details{
+  background-color: #303030;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;  
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+
+@media (min-width:768px) {
+    details{
+        background-color: #303030;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        color: #fff;
+        font-size: 1.5rem;
+      }
+
+}
+.bottom{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+@media (min-width:768px) {
+.bottom > table{
+margin-left: 320px;
+}
+}
+.footer > p{
+    color: #777;
+    margin: 10px;
+}
+.footer-flex{
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    padding: 20px;
+}
+.div1{
+    margin-left: 10px;
+}
+.div2{
+    margin-left: 100px;
+}
+
+@media (min-width:768px) {
+    .div1{
+        margin-left: 100px;
+        text-decoration: underline;
+    }
+    .div2{
+        position: absolute;
+        right: 20%;
+        text-decoration: underline;
+    }
+}
+.call{
+    color: white;
+    margin: 20px;
+}
+.rightHi{
+    display: flex;
+    margin: 10px;
+    border: 1px solid #777;
+    width: 100px;
+    padding: 2px;
+}
